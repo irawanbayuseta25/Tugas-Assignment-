@@ -1,0 +1,19 @@
+- program pertama dengan nama (program_pertama_konversi_suhu_dari_kelvin_ke_celcius_dan_celcius_ke_kelvin_irawanbayuseta) :
+  untuk program tersebut saya menggunakan dua fungsi untuk mengkonversi suhu dari kelvin ke celcius dan sebaliknya.
+  - untuk kata kunci fungsi pertama (def) dengan nama fungsi (kelvin_ke_celsius) fungsi ini menerima suhu dalam kelvin sebagai parameter,
+    dengan menggunakan rumus (celcius = kelvin - 273.15) lalu dikembalikan suhu dalam celcius.
+  - untuk kata kunci fungsi kedua (def) dengan nama fungsi (celsius_ke_kelvin) fungsi ini menerima suhu dalam celcius sebagai parameter,
+    dengan menggunakan rumus (kelvin = celcius + 273.15) lalu dikembalikan suhu dalam kelvin.
+  untuk penggunaan fungsi saya ambil contoh mengkonversi suhu dari 300 Kelvin ke Celcius dan dari 25 Celcius ke Kelvin.
+- program kedua dengan nama (program_kedua_konversi_suhu_ke_fahrenheit_irawanbayuseta):
+  pada program tersebut saya menggunakan fungsi (konversi_suhu_ke_fahrenheit) menerima 2 parameter ('suhu'dan'satuan'),
+  lalu gunakan fungsi if Jika satuan adalah 'celsius', maka langsung mengkonversi ke Fahrenheit menggunakan rumus (Celsius * 9/5) + 32,
+  dan Jika satuan adalah 'kelvin', kita pertama-tama mengonversi Kelvin ke Celsius dengan mengurangkan 273.15, lalu menggunakan rumus yang sama untuk konversi ke Fahrenheit,
+  apabila terjadi satuan yang tidak valid maka akan akan menghasilkan ValueError lalu memanggil fungsi ini dua kali, sekali dengan suhu dalam Celsius dan sekali dengan suhu dalam Kelvin, dan mencetak hasilnya.
+- program ketiga dengan nama (program_ketiga_konversi_suhu_fahrenheit_dgn_output_celcius_dan_kelvin_irawanbayuseta) :
+  pada program tersebut dengan nama fungsi (konversi_fahrenheit_ke_celcius_dan_kelvin) dengan menerima suhu fahrenheit sebagai parameter,
+  lalu menggunakan perhitungan rumus konversi untuk menghitung suhu dalam celcius dan kelvin dan mengembalikan tuple yang berisi suhu dalam format
+  ('celcius' dan 'kelvin') dengan contoh penggunaan fungsi menunjukkan cara mendapatkan dan menampilkan suhu dalam Celsius dan Kelvin setelah konversi dari Fahrenheit.
+ 
+
+
